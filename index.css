@@ -1,0 +1,101 @@
+html{
+    padding: 0;
+    background-color: #fff;
+}
+/* navbar */
+
+nav .container-fluid img{
+    border-radius: 50%;
+    border: 5px solid yellow;
+    height: 20vh;
+}
+.ul-nav{
+    width: 100%;
+}
+.title{
+    font-family: 'Righteous';
+    font-weight: bold;
+    font-size: 5vh;    
+}
+ .menuSelect{
+    width: 100%;
+} 
+/* 
+home */
+
+/* 
+card section */
+
+.card-section .cards{
+  
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+.col1{
+    width: 50%;
+    
+}
+.col2{
+    width: 50%;
+   
+}
+.card{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin:auto;
+    align-items: flex-start;
+    height: fit-content;
+    margin-bottom: 10vh;
+    
+}
+.card-section{
+    background-color: rgb(7, 5, 5);
+}
+.card-section .card h5{
+    font-family: 'Rock Salt';
+    font-size: 7vh;
+    font-weight: bolder;
+    margin: 5vh;
+    background-color: yellow;
+    text-align: center;
+    width: min-content;
+}
+.card-text{
+    font-family: 'Righteous';
+}
+.card-section .head-title h2{
+    font-family: 'Righteous';
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 8vh;
+}
+.card img{
+    
+}
+.card-section .card a{
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    margin: 5vh;
+    background-color: yellow;
+    border: red solid 2px;
+}
+
+/* carousel section */
+#carouselExampleIndicators{
+    border: 5px solid black;
+}
+
+
+
+/* footer */
+footer img{
+    border-radius: 50%;
+    border: 5px solid yellow;
+    height: 20vh;
+}
