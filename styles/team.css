@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inspiration&family=Righteous&family=Roboto:wght@400;900&family=Rock+Salt&family=Work+Sans:ital,wght@0,400;0,600;1,200&display=swap');
+
+/* navbar */
+nav{
+    border-bottom: 10px solid black;
+}
+nav .container-fluid img{
+    border-radius: 50%;
+    border: 5px solid yellow;
+    height: 20vh;
+}
+.ul-nav{
+    width: 100%;
+}
+.title{
+    font-family: 'Righteous';
+    font-weight: bold;
+    font-size: 5vh;    
+}
+ .menuSelect{
+    width: 100%;
+} 
+/* body */
+.encabezado{
+    background-image: url("../media/fondo-pizze.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 10px solid yellow;
+}
+.encabezado h1{
+    color: #fff;
+    margin-bottom: 8vh;
+    background-color: lightslategray;
+    border-radius: 6px;
+    font-size: 8vh;
+    font-family: 'Righteous';
+}
+.cuerpo{
+    background-image: url("../media/HD-wallpaper-food-pizza.jpg");
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+}
+.cuerpo h3{
+    margin-left: auto;
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    background-color: lightslategray;
+}
+.cuerpo h3 span{
+    background-color: black;
+}   
+
+footer img{
+    border-radius: 50%;
+    border: 5px solid yellow;
+    height: 20vh;
+}
